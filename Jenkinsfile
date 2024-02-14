@@ -12,3 +12,4 @@ node{
      stage('UploadArtifactsIntoNeus'){
         sh "${mavenHome}/bin/mvn clean deploy"
     }
+}
